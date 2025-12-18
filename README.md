@@ -6,7 +6,7 @@ The Chef Origin Server is the backend API that powers the Chef Origin platform. 
 
 ## Live URL
 
-[Insert Live URL Here]
+- **Server:** https://chef-origin-server.vercel.app
 
 ## Key Features
 

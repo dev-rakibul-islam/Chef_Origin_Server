@@ -51,16 +51,6 @@ const imgkitClient = new ImageKit({
   urlEndpoint: process.env.IMAGEKIT_URL_ENDPOINT,
 });
 
-// allow cross-origin requests
-// app.use(function (req, res, next) {
-//   res.header("Access-Control-Allow-Origin", "*");
-//   res.header(
-//     "Access-Control-Allow-Headers",
-//     "Origin, X-Requested-With, Content-Type, Accept"
-//   );
-//   next();
-// });
-
 app.get("/auth", function (req, res) {
   // Your application logic to authenticate the user
   // For example, you can check if the user is logged in or has the necessary permissions
